@@ -38,5 +38,6 @@ $spacing: 10px;
 // Keep elements side by side
 .left {
     float: left;
-    margin-right: 10px;
+    margin-right: $spacing;
 }
+
