@@ -23,4 +23,9 @@
   height: 100vh;
 }
 
+.left {
+  float: left;
+  margin-right: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */
