@@ -41,3 +41,31 @@ $spacing: 10px;
     margin-right: $spacing;
 }
 
+.google {
+    margin-bottom: $spacing;
+    text-align: center;
+}
+
+@keyframes flashing {
+    0% {
+      color: red;
+    }
+    25% {
+        color: yellow;
+    }
+    50% {
+      color: blue;
+    }
+    75% {
+        color: green;
+    }
+    100% {
+      color: red;
+    }
+  }
+  
+  .flashing-text {
+    font-size: 2em; 
+    animation: flashing 6s infinite; 
+  }
+
