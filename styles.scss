@@ -1,12 +1,15 @@
+// Define variable for spacing
+$spacing: 10px;
+
 // Style for top right divs
 .top-right-div {
     position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 10px;
+    top: $spacing;
+    right: $spacing;
+    padding: $spacing;
     
     a {
-        margin-right: 10px;
+        margin-right: $spacing;
     }
 }
 
@@ -15,7 +18,7 @@
     @extend .top-right-div;
 
     a {
-        color: black;
+        color: dimgray;
         text-decoration: none;
 
         &:hover {
