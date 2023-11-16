@@ -1,5 +1,6 @@
-// Define variable for spacing
+// Variables
 $spacing: 10px;
+$large_spacing: 50px;
 
 // Style for top right divs
 .top-right-div {
@@ -41,6 +42,16 @@ $spacing: 10px;
     margin-right: $spacing;
 }
 
+.bottom {
+    display: flex;
+    align-items: center;
+    margin-bottom: $spacing;
+    
+    input {
+        margin-left: $spacing;
+    }
+}
+
 .google {
     margin-bottom: $spacing;
     text-align: center;
@@ -69,3 +80,22 @@ $spacing: 10px;
     animation: flashing 6s infinite; 
   }
 
+.left-margin {
+    margin-left: $large_spacing;
+}
+
+.top-margin {
+    margin-top: $large_spacing;
+}
+
+.top-margin-small {
+    margin-top: $spacing;
+}
+
+#adv-red {
+    color: red;
+}
+
+form input[type="text"] {
+    max-width: 300px; 
+}
